@@ -1,0 +1,65 @@
+:root {
+  /* Typography */
+  --font-mono: 'JetBrains Mono', 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --font-display: 'Aileron', var(--font-mono);
+
+  --text-display: 38px;
+  --text-heading: 16px;
+  --text-body: 16px;
+  --text-button: 16px;
+  --text-med: 14px;
+  --text-caption: 14px;
+  --text-small: 12px;
+
+  /* Surface & ink — warm cream canvas, near-black ink */
+  --canvas: #fdfcfc;
+  --ink: #201d1d;
+  --ink-deep: #0f0000;
+  --surface-soft: #f8f7f7;
+  --surface-card: #f1eeee;
+  --surface-dark: #201d1d;
+  --surface-dark-elevated: #302c2c;
+  --hairline: rgba(15, 0, 0, 0.12);
+  --hairline-strong: #646262;
+
+  /* Text */
+  --charcoal: #302c2c;
+  --body: #424245;
+  --mute: #646262;
+  --stone: #6e6e73;
+  --ash: #9a9898;
+  --on-dark: #fdfcfc;
+
+  /* Semantic accents — used sparingly: active nav, primary CTA, status pixels */
+  --accent: #007aff;
+  --accent-hover: #0056b3;
+  --accent-active: #004085;
+  --accent-soft: rgba(0, 122, 255, 0.12);
+  --danger: #ff3b30;
+  --danger-hover: #d70015;
+  --danger-active: #a50011;
+  --warning: #ff9f0a;
+  --success: #30d158;
+
+  /* Spacing */
+  --space-xxs: 1px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 24px;
+  --space-xxl: 32px;
+  --space-section: 96px;
+  --space-section-tablet: 64px;
+  --space-section-mobile: 48px;
+
+  /* Shape */
+  --radius-sm: 4px;
+  --radius-none: 0px;
+  --radius-full: 9999px;
+
+  /* Layout */
+  --content-max: 720px;
+  --content-wide: 880px;
+  --navbar-height: 64px;
+}

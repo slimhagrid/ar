@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adam Reed | Web Developer</title>
+  <meta name="description" content="Portfolio site for Adam Reed." />
+  <meta property="og:title" content="Adam Reed | Web Developer" />
+  <meta property="og:description" content="Portfolio site for Adam Reed." />
+  <meta property="og:image" content="/assets/images/og-image.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/assets/images/webclip.png" />
+  <link rel="preload" href="/assets/fonts/Aileron-Black.otf" as="font" type="font/otf" crossorigin />
+  <link rel="preload" href="/assets/fonts/Aileron-UltraLight.otf" as="font" type="font/otf" crossorigin />
+  <link rel="stylesheet" href="/assets/css/tokens.css" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/components.css" />
+  <script src="/assets/js/font-ready.js" defer></script>
+  <script src="/assets/js/lissajous.js" defer></script>
+  <script src="/assets/js/nav-toggle.js" defer></script>
+  <noscript><style>body { opacity: 1; }</style></noscript>
+</head>
+<body>
+<header class="navbar">
+  <div class="navbar-inner">
+    <a href="/" class="nav-brand">adam reed</a>
+    <nav class="nav-links" id="nav-links" aria-label="Primary">
+      <a href="/#about" class="nav-link">ABOUT</a>
+      <a href="/#contact" class="nav-link">CONTACT</a>
+      <a href="/#fun" class="nav-link">FUN</a>
+      <a href="/stuff/" class="nav-link">STUFF</a>
+      <a href="/#work" class="nav-link">WORK</a>
+    </nav>
+    <div class="nav-mark">ar.</div>
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">[menu]</button>
+  </div>
+  <div class="load-bar" aria-hidden="true"></div>
+</header>
+
+<main>
+  <section class="section hero">
+    <div class="prose">
+      <div class="hero-flex">
+        <div>
+          <h1 class="hero-title">web developer</h1>
+          <p class="hero-sub">beatboxer, physical media man</p>
+        </div>
+        <div class="pixel-frame">
+          <canvas id="hero-lissajous"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="prose">
+      <h2 id="about" class="section-heading">about</h2>
+
+      <p class="block">adam reed - web developer, low-code/no-code guy person, general internetist</p>
+      <p class="block">i build functional, responsive, simple to use websites</p>
+
+      <p class="subhead">skillset</p>
+      <div class="tag-list">
+        <span class="tag">webflow</span>
+        <span class="tag">wordpress</span>
+        <span class="tag">hubspot</span>
+        <span class="tag">wp engine</span>
+        <span class="tag">migrations</span>
+        <span class="tag">optimization</span>
+        <span class="tag">estimates</span>
+        <span class="tag">accessibility</span>
+        <span class="tag">automation</span>
+        <span class="tag">responsiveness</span>
+        <span class="tag">collaboration</span>
+      </div>
+
+      <p class="subhead">interests</p>
+      <div class="tag-list">
+        <span class="tag">beatboxing</span>
+        <span class="tag">animation</span>
+        <span class="tag">physical media</span>
+        <span class="tag">synthesizers</span>
+        <span class="tag">typography</span>
+        <span class="tag">roguelikes</span>
+        <span class="tag">werner herzog</span>
+        <span class="tag">graffiti &amp; stencils</span>
+        <span class="tag">textures &amp; tactility</span>
+        <span class="tag">graphic design</span>
+        <span class="tag">keyboards</span>
+      </div>
+
+      <p class="subhead">currently</p>
+      <div class="status-row">
+        <span class="status-pixel is-success" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+        </span>
+        <span>web dev [contract] @ av social</span>
+      </div>
+      <div class="status-row">
+        <span class="status-pixel is-danger" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+        </span>
+        <span>pursuing webflow, wordpress developer positions</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="prose">
+      <h2 id="contact" class="section-heading">contact</h2>
+      <p class="section-sub">email</p>
+      <p class="block">
+        for project, full/part-time, freelance, and contract positions<br />
+        or for chit-chatting
+      </p>
+      <a href="mailto:adamreedb@gmail.com?subject=New_Quest" class="button-primary">message</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="prose">
+        <h2 id="fun" class="section-heading">fun</h2>
+        <p class="section-sub">personal projects</p>
+
+        <div class="listing">
+        <div class="listing-row">
+          <span class="listing-index">01</span>
+          <div class="listing-body">
+            <div class="listing-head">
+              <span class="listing-title">blu-helper</span>
+              <span class="listing-tag">github pages</span>
+              <a href="https://slimhagrid.github.io/blu-helper/" target="_blank" rel="noopener" class="text-link">visit</a>
+            </div>
+            <p class="listing-desc">boutique bluray database/directory - no tracking, using unlicense, made for physical media collectors</p>
+          </div>
+        </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="prose">
+      <h2 id="work" class="section-heading">work</h2>
+      <p class="section-sub">selected client projects</p>
+
+      <div class="listing">
+        <div class="listing-row">
+          <span class="listing-index">01</span>
+          <div class="listing-body">
+            <div class="listing-head">
+              <span class="listing-title">nugredient / nugredient solutions</span>
+              <span class="listing-tag">webflow</span>
+              <a href="https://www.nugredient.com/" target="_blank" rel="noopener" class="text-link">visit</a>
+            </div>
+            <p class="listing-desc">mockup provided by designer ### / client needed site built for new brand %%% / built by [me] in webflow</p>
+          </div>
+        </div>
+
+        <div class="listing-row">
+          <span class="listing-index">02</span>
+          <div class="listing-body">
+            <div class="listing-head">
+              <span class="listing-title">schutte hospitality group</span>
+              <span class="listing-tag">webflow</span>
+              <a href="https://www.schuttehospitalitygroup.com/" target="_blank" rel="noopener" class="text-link">visit</a>
+            </div>
+            <p class="listing-desc">mockup provided by designer ### / client needed umbrella site built %%% / built by [me] in webflow</p>
+          </div>
+        </div>
+
+        <div class="listing-row">
+          <span class="listing-index">03</span>
+          <div class="listing-body">
+            <div class="listing-head">
+              <span class="listing-title">sylhan</span>
+              <span class="listing-tag">webflow</span>
+              <a href="https://www.sylhan.com/" target="_blank" rel="noopener" class="text-link">visit</a>
+            </div>
+            <p class="listing-desc">mockup provided by designer ### / client needed a fresh site %%% / built by [me] in webflow</p>
+          </div>
+        </div>
+
+        <div class="listing-row">
+          <span class="listing-index">04</span>
+          <div class="listing-body">
+            <div class="listing-head">
+              <span class="listing-title">ingredients plus</span>
+              <span class="listing-tag">webflow</span>
+              <a href="https://www.ingredientsplus.com/" target="_blank" rel="noopener" class="text-link">visit</a>
+            </div>
+            <p class="listing-desc">mockup provided by designer ### / client needed a new site after rebrand %%% / built by [me+2] in webflow</p>
+          </div>
+        </div>
+
+        <div class="listing-row">
+          <span class="listing-index">05</span>
+          <div class="listing-body">
+            <div class="listing-head">
+              <span class="listing-title">bp elevator</span>
+              <span class="listing-tag">webflow</span>
+              <a href="https://www.bpelevator.com/" target="_blank" rel="noopener" class="text-link">visit</a>
+            </div>
+            <p class="listing-desc">mockup provided by designer ### / client needed their first site made %%% / built by [me] in webflow</p>
+          </div>
+        </div>
+
+        <div class="listing-row">
+          <span class="listing-index">06</span>
+          <div class="listing-body">
+            <div class="listing-head">
+              <span class="listing-title">team landmark / landmark structures</span>
+              <span class="listing-tag">wordpress</span>
+              <a href="https://www.teamlandmark.com/" target="_blank" rel="noopener" class="text-link">visit</a>
+            </div>
+            <p class="listing-desc">mockup provided by designer ### / client needed a fresh site %%% / built by [me] in wordpress</p>
+          </div>
+        </div>
+
+        <div class="listing-row">
+          <span class="listing-index">07</span>
+          <div class="listing-body">
+            <div class="listing-head">
+              <span class="listing-title">moog construction</span>
+              <span class="listing-tag">wordpress</span>
+              <a href="https://www.moogconstruction.com/" target="_blank" rel="noopener" class="text-link">visit</a>
+            </div>
+            <p class="listing-desc">mockup provided by designer ### / client needed a fresh site %%% / built by [me+1] in wordpress</p>
+          </div>
+        </div>
+
+        <div class="listing-row">
+          <span class="listing-index">08</span>
+          <div class="listing-body">
+            <div class="listing-head">
+              <span class="listing-title">zquip</span>
+              <span class="listing-tag">wordpress</span>
+              <a href="https://zquip.tech/" target="_blank" rel="noopener" class="text-link">visit</a>
+            </div>
+            <p class="listing-desc">mockup provided by designer ### / client needed site built for new brand %%% / built by [me] in wordpress</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span class="footer-mark">ar.</span>
+    <span class="footer-copyright">&copy; until ragnarok</span>
+  </div>
+</footer>
+</main>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  lissajous('hero-lissajous', {
+    a: 66, b: 48, steps: 9500,
+    colors: ['#007aff', '#0056b3'],
+    tailAt: 0.55, fade: 0.15, margin: 0, speed: 0.015, px: 32,
+    breathing: { rate: 0.02, depth: 0.85 }
+  });
+});
+</script>
+</body>
+</html>
