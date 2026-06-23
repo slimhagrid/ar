@@ -12,11 +12,12 @@
   <link rel="stylesheet" href="/assets/css/tokens.css" />
   <link rel="stylesheet" href="/assets/css/base.css" />
   <link rel="stylesheet" href="/assets/css/components.css" />
+  <link rel="stylesheet" href="/assets/css/quick-body.css"/>
   <script src="/assets/js/font-ready.js" defer></script>
   <script src="/assets/js/ascii-field.js" defer></script>
   <script src="/assets/js/zoetrope.js" defer></script>
   <script src="/assets/js/nav-toggle.js" defer></script>
-  <noscript><style>body { opacity: 1; }</style></noscript>
+  <script src="/assets/js/stuff-ascii.js" defer></script>
 </head>
 <body>
 <header class="navbar">
@@ -202,15 +203,5 @@
 </footer>
 </main>
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  asciiField('stuff-ascii', {
-    cols: 8, rows: 8,
-    charset: ['.', ':', '-', '=', '+', '*', '%', '#', '!'],
-    colors: ['#9a9898', '#007aff'],
-    glitchChance: 0.03, speed: 0.0004, fps: 12
-  });
-});
-</script>
 </body>
 </html>
