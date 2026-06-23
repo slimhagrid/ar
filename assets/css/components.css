@@ -173,6 +173,7 @@
 
 .site-footer {
   border-top: 1px solid var(--hairline);
+  background: var(--canvas);
 }
 
 .footer-inner {
